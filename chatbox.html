@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Real Time PHP</title>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
+    <link href="src/assets/css/bootstrap.min.css" rel="stylesheet" type='text/css' >
+    <link href='chatbox.css' rel='stylesheet' type='text/css'>
+</head>
+
+<body class="container-fluid">
+    <div class="container_chatbox">
+        <div id="chatbox">
+            <div class="row">
+                <div class="col col-md-6">
+                    <div id="friendslist">
+                        <div id="topmenu"></div>
+        
+                        <div id="friends">
+                            <div class="friend">
+                                <img src="src/assets/img/person-circle.svg" />
+                                <p>
+                                    <strong>Miro Badev</strong>
+                                    <span>mirobadev@gmail.com</span>
+                                </p>
+                                <div class="status available"></div>
+                            </div>
+        
+                            <div class="friend">
+                                <img src="src/assets/img/person-circle.svg" />
+                                <p>
+                                    <strong>Miro Badev</strong>
+                                    <span>mirobadev@gmail.com</span>
+                                </p>
+                                <div class="status available"></div>
+                            </div>
+        
+                            <div class="friend">
+                                <img src="src/assets/img/person-circle.svg" />
+                                <p>
+                                    <strong>Martin Joseph</strong>
+                                    <span>marjoseph@gmail.com</span>
+                                </p>
+                                <div class="status away"></div>
+                            </div>
+        
+                            <div class="friend">
+                                <img src="src/assets/img/person-circle.svg" />
+                                <p>
+                                    <strong>Tomas Kennedy</strong>
+                                    <span>tomaskennedy@gmail.com</span>
+                                </p>
+                                <div class="status inactive"></div>
+                            </div>
+        
+                            <div class="friend">
+                                <img src="src/assets/img/person-circle.svg" />
+                                <p>
+                                    <strong>Tomas Kennedy</strong>
+                                    <span>tomaskennedy@gmail.com</span>
+                                </p>
+                                <div class="status inactive"></div>
+                            </div>
+        
+                            <div class="friend">
+                                <img src="src/assets/img/person-circle.svg" />
+                                <p>
+                                    <strong>Enrique Sutton</strong>
+                                    <span>enriquesutton@gmail.com</span>
+                                </p>
+                                <div class="status inactive"></div>
+                            </div>
+        
+                            <div class="friend">
+                                <img src="src/assets/img/person-circle.svg" />
+                                <p>
+                                    <strong>Darnell Strickland</strong>
+                                    <span>darnellstrickland@gmail.com</span>
+                                </p>
+                                <div class="status inactive"></div>
+                            </div>
+
+                        </div>
+                        <div id="footermenu"></div>
+        
+                    </div>
+                </div>
+    
+                <div class="col col-md-6">
+                    <div id="chatview" class="p1">
+                        <div id="profile">       
+                            <strong>Miro Badev</strong>
+                            <span>miro@badev@gmail.com</span>
+                        </div>
+                        <div id="chat-messages">
+                            <label>Thursday 02</label>
+        
+                            <div class="message">
+                                <img src="src/assets/img/person-circle.svg" />
+                                <div class="bubble">
+                                    Really cool stuff!
+                                    <div class="corner"></div>
+                                    <span>3 min</span>
+                                </div>
+                            </div>
+        
+                            <div class="message right">
+                                <div class="bubble">
+                                    Can you share a link for the tutorial?
+                                    <div class="corner"></div>
+                                    <span>1 min</span>
+                                </div>
+                            </div>
+        
+                            <div class="message">
+                                <img src="src/assets/img/person-circle.svg" />
+                                <div class="bubble">
+                                    Yeah, hold on
+                                    <div class="corner"></div>
+                                    <span>Now</span>
+                                </div>
+                            </div>
+        
+                            <div class="message right">
+                                <div class="bubble">
+                                    Can you share a link for the tutorial?
+                                    <div class="corner"></div>
+                                    <span>1 min</span>
+                                </div>
+                            </div>
+        
+                            <div class="message">
+                                <img src="src/assets/img/person-circle.svg" />
+                                <div class="bubble">
+                                    Yeah, hold on
+                                    <div class="corner"></div>
+                                    <span>Now</span>
+                                </div>
+                            </div>
+        
+                        </div>
+        
+                        <div id="sendmessage">
+                            <input type="text" value="Send message..." />
+                            <button type="button" id="send">Enviar</button>
+                        </div>
+
+                        <div id="footermenu"></div>
+        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="src/assets/js/jquery.js"></script>
+    <script src="src/assets/js/bootstrap.bundle.min.js"></script>
+    <script src="chatbox.js"></script>
+
+</body>
+
+</html>
